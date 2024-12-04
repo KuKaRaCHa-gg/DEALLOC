@@ -1,8 +1,7 @@
 <?php
-require_once '../includes/header.php';
+require_once 'controllers/TetrisController.php';  // Inclure le contrôleur
 
-$controller = new HomeController();
+$controller = new TetrisController();
+
 $controller->index();
-
-require_once '../includes/footer.php';
 ?>
